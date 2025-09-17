@@ -12,16 +12,14 @@
     
     <?php include "pages/header.php"?>
 
-    <div id=login>
-        <button type="submit" href="index.php"></button>
-    </div>
+    <h3>Cadastro</h3>
 
     <?php include "pages/footer.php"?>
 
 </body>
 
 <script>
-
+    
 </script>
 
 </html>
