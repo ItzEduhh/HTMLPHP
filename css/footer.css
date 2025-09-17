@@ -1,0 +1,14 @@
+            #final h3{
+                color: rgb(0, 0, 0); 
+                background-color: rgb(212, 154, 79); 
+                text-align: center;
+            }
+
+            #voltarInicio{
+                position: fixed;
+                left: 30px;
+                bottom: 1px;
+                width: 70px;
+                height: 100px;
+                z-index: 3; 
+            }

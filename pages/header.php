@@ -1,4 +1,6 @@
 <header>
+        <link rel="stylesheet" href="css/header.css">
+
         <div id="imgFixedXie">
             <img src="imagens/xieChibi.jpg" alt="" width="65px" height="65px">
         </div>
@@ -14,9 +16,5 @@
             
             <h2>Este site é dedicado a obra Tian Guan Ci Fu(TGCF, Heaven Official's Blessing)</h2>
             
-        </div>
-
-        <div id="imagemTopo">
-            <img src="imagens/TGCFimg2.jpg" alt="">
         </div>
 </header>

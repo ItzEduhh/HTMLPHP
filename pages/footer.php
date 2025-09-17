@@ -1,5 +1,7 @@
 <footer>
 
+    <link rel="stylesheet" href="css/footer.css">
+
     <div id="voltarInicio">
         <button><a href="index.php">Voltar ao inicio</a></button>
     </div>

@@ -145,14 +145,6 @@
 
         </div>
 
-        <div id="easterEgg">
-            <button><a href="easterEgg.php" style="color:black">Deseja ver um Easter-Egg???</a></button>
-        </div>
-
-        <div id="final">
-            <h3>Fim do site! :)</h3>
-        </div>
-
         <?php include "pages/footer.php"?>
 
     </body>

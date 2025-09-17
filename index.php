@@ -10,6 +10,10 @@
     <body>
         
         <?php include "pages/header.php"?>
+
+        <div id="imagemTopo">
+            <img src="imagens/TGCFimg2.jpg" alt="">
+        </div>
         
         <div id="Sobre">
                     <h3>Sobre a obra</h3>
@@ -105,8 +109,6 @@
         </div>
 
         <br>
-
-        <a href="h5.php" id="h5Page">HMTL5 teste</a>
 
         <?php include "pages/footer.php"?>
     </body>
