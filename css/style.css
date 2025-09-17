@@ -1,0 +1,126 @@
+body{
+                margin: 80px;
+                background-color: rgb(255, 193, 151);
+            }
+
+
+
+            @keyframes fotoAnimada{
+                0% {left: 0px;   top: 0px;}
+                25%{left: 30px;   top: 0px;}
+                50%{left: 30px;   top: 30px;}
+                75%{left: 0px;   top: 30px;}
+                100%{left: 0px;   top: 0px;}
+            }
+
+            @keyframes fotoAnimada2{
+                0% {right: 0px;   top: 0px;}
+                25%{right: 30px;   top: 0px;}
+                50%{right: 30px;   top: 30px;}
+                75%{right: 0px;   top: 30px;}
+                100%{right: 0px;   top: 0px;}
+            }
+
+            @keyframes janelaAnimada{
+                0% {right: 0px;   bottom: 0px;}
+                25%{right: 0px;   bottom: 15px;}
+                50%{right: 15px;   bottom: 15px;}
+                75%{right: 15px;   bottom: 0px;}
+                100%{right: 0px;   bottom: 0px;}
+            }
+
+            #imgFixedXie{
+                position: fixed;
+                top: 5px;
+                left: 5px;
+                border: 5px outset darkred;
+                background-color: rgb(255, 255, 255);
+                border-radius: 10px; 
+                animation: fotoAnimada 5s ease-in-out 1s infinite;     
+            }
+
+            #imgFixedHua{
+                position: fixed;
+                top: 5px;
+                right: 5px;
+                border: 5px outset darkred;
+                background-color: white;
+                border-radius: 10px;  
+                animation: fotoAnimada2 5s ease-in-out 1s infinite;    
+            }
+
+            #janela{
+                position: fixed;
+                bottom: 30px;
+                right: 30px;
+                z-index: 2; 
+                animation: janelaAnimada 1s ease-in-out 1s infinite; 
+            }
+
+            #apresentacao h1{                
+                color:rgb(170, 3, 3); 
+                background-color: rgb(212, 154, 79); 
+                text-align: center; 
+                font-size: 70px;
+            }
+            
+            #apresentacao h2 {
+                text-align: center; 
+                background-color: rgb(179, 48, 48);
+                border-radius: 15px;  
+            }
+
+            #imagemTopo{
+                padding: 5px;
+                text-align: center; 
+                background-color: rgb(212, 154, 79);
+            }
+
+            #imagemTopo img {
+                width: 750px; 
+                height: 500px;
+            }
+
+            #personagens{
+                color:darkred
+            }
+
+            #personagens ul{
+                color: black
+            }
+
+            #compraLivro h2{
+                width: 200px;
+                height: 35px;
+                border: 5px solid brown;
+                padding: 5px;
+                color:rgb(170, 3, 3); 
+                background-color: rgb(212, 154, 79);
+            }
+
+            #compraLivro table{
+                border: 3px groove rgb(78, 78, 78); 
+                border-spacing: 30px;
+            }
+
+            #final h3{
+                color: rgb(0, 0, 0); 
+                background-color: rgb(212, 154, 79); 
+                text-align: center;
+            }
+
+            #voltarInicio{
+                position: fixed;
+                left: 30px;
+                bottom: 1px;
+                width: 70px;
+                height: 100px;
+                z-index: 3; 
+            }
+
+            #h5Page{
+                background-color: rgb(224, 127, 127);
+                border: 5px solid black;
+                padding: 10px;
+                border-radius: 15px;
+            }

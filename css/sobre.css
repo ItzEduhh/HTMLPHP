@@ -1,0 +1,87 @@
+body{
+                margin: 80px;
+                background-color: rgb(255, 193, 151);
+            }
+
+            @keyframes fotoAnimada{
+                0% {left: 0px;   top: 0px;}
+                25%{left: 20px;   top: 0px;}
+                50%{left: 20px;   top: 20px;}
+                75%{left: 0px;   top: 20px;}
+                100%{left: 0px;   top: 0px;}
+            }
+
+            @keyframes fotoAnimada2{
+                0% {right: 0px;   top: 0px;}
+                25%{right: 20px;   top: 0px;}
+                50%{right: 20px;   top: 20px;}
+                75%{right: 0px;   top: 20px;}
+                100%{right: 0px;   top: 0px;}
+            }
+
+            #imgFixedXie{
+                position: fixed;
+                top: 5px;
+                left: 5px;
+                border: 5px outset darkred;
+                background-color: white; 
+                border-radius: 10px;
+                animation: fotoAnimada 5s ease-in-out 1s infinite;       
+            }
+
+            #imgFixedHua{
+                position: fixed;
+                top: 5px;
+                right: 5px;
+                border: 5px outset darkred;
+                background-color: white; 
+                border-radius: 10px; 
+                animation: fotoAnimada2 5s ease-in-out 1s infinite;     
+            }
+
+            #apresentacao h1{
+                color:rgb(170, 3, 3); 
+                background-color: rgb(212, 154, 79); 
+                text-align: center; 
+                font-size: 70px;
+            }
+
+            #apresentacao h2{
+                text-align: center; 
+                background-color: rgb(179, 48, 48);
+                border-radius: 15px;
+            }
+
+            #xieHistoria h2{
+                width: 230px;
+                height: 35px;
+                border: 5px solid brown;
+                padding: 5px;
+                color:rgb(170, 3, 3); 
+                background-color: rgb(212, 154, 79)
+            }
+
+            #final h3{
+                color: rgb(0, 0, 0); 
+                background-color: rgb(212, 154, 79); 
+                text-align: center;
+            }
+
+            #historiaLivroAtual h2{
+                width: 280px;
+                height: 35px;
+                border: 5px solid brown;
+                padding: 5px;
+                color: rgb(170, 3, 3);
+                background-color: rgb(212, 154, 79);
+            }
+
+            #easterEgg button{
+                position: relative;
+                text-align: center;
+                width: 125px;
+                height: 75px;
+                border: 2px solid black;
+                background-color: red;
+
+            }

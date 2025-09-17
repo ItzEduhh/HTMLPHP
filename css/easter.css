@@ -1,0 +1,15 @@
+body {
+            position: absolute;
+            left: 300px;
+            right: 300px;
+            margin: 80px;
+            background-color: rgb(255, 193, 151);
+        }
+
+        #final h3{
+            position: relative;
+            bottom: 15px;
+            color: rgb(0, 0, 0); 
+            background-color: rgb(212, 154, 79); 
+            text-align: center;
+        }

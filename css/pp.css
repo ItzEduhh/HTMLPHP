@@ -1,0 +1,75 @@
+body {
+            margin: 80px;
+            background-color: rgb(255, 193, 151);
+        }
+
+        #imgFixedXie{
+            position: fixed;
+            top: 5px;
+            left: 5px;
+            border: 5px outset darkred;
+            background-color: white;
+            border-radius: 10px;      
+        }
+
+        #imgFixedHua{
+            position: fixed;
+            top: 5px;
+            right: 5px;
+            border: 5px outset darkred;
+            background-color: white;
+            border-radius: 10px;      
+        }
+
+        #topo h1 {
+            color: rgb(170, 3, 3);
+            background-color: rgb(212, 154, 79);
+            text-align: center;
+            font-size: 70px;
+        }
+
+        #topo h2 {
+            text-align: center;
+            background-color: rgb(179, 48, 48);
+            border-radius: 15px;
+        }
+
+        #menuPP xie {
+            border: 4px groove red;
+            padding: 5px;
+            margin: 10px;
+        }
+
+        #menu {
+            background-color: rgb(212, 154, 79);
+            border: 5px solid brown;
+            display: flex;
+            justify-content: left; /* centraliza os filhos horizontalmente */
+        }
+
+        #imgMenu img {
+            border: 6px solid black;
+            padding: 4px;
+            margin: 5px;
+            background-color: brown;
+        }
+
+        #menuTexto {
+            width: 500px;
+            height: 50;
+            border: 6px solid black;
+            padding: 2px;
+            margin: 5px;
+            background-color: rgb(190, 39, 39);
+            text-align: center;
+        }
+
+        #final h3{
+            color: rgb(0, 0, 0); 
+            background-color: rgb(212, 154, 79); 
+            text-align: center;
+        }
+
+        #menuTexto li{
+            background-color: rgb(196, 76, 76);
+        }
