@@ -9,43 +9,34 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
 }
 
 $nome = limpar($_POST['nome'] ?? '');
-$idade = (int)($_POST['idade'] ?? 0);
 $email = filter_var($_POST['email'] ?? '', FILTER_VALIDATE_EMAIL);
 
 $erros = [];
-if ($nome === '') $erros[]='Nome obrigatório';
-if ($idade <= 0) $erros[]='Idade inválida';
-if (!$email) $erros[]='Email inválido';
+
+if ($nome === '') $erros[] = 'Nome é obrigatório';
+if (!$email) $erros[] = 'Email inválido';
+
+if ($erros):
 ?>
+    <!doctype html>
+    <html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <title>Erros de Validação</title>
+    </head>
+    <body>
+        <h2>Corrija os seguintes erros:</h2>
+        <ul>
+            <?php foreach($erros as $e) echo "<li>$e</li>"; ?>
+        </ul>
+        <p><a href="login2.php">Voltar</a></p>
+    </body>
+    </html>
 
-<!doctype html>
-<meta charset="utf-8">
-<title>Resultado</title>
+<?php
 
-<?php 
-if ($erros): 
-?>
-
-  <h2>Corrija:</h2>
-
-<ul>
-<?php 
-foreach($erros as $e) echo "<li>$e</li>"; 
-?>
-</ul>
-
-  <p><a href="login.php">Voltar</a></p>
-
-<?php 
-    else: 
-?>
-
-  <h2>Dados recebidos</h2>
-
-  <p>Nome: <?= $nome ?></p>
-  <p>Idade: <?= $idade ?></p>
-  <p>Email: <?= htmlspecialchars($_POST['email']) ?></p>
-
-<?php 
-    endif; 
+else:
+    header("Location: index.php");
+    exit;
+endif;
 ?>
