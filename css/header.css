@@ -49,3 +49,9 @@
                 z-index: 2; 
                 animation: janelaAnimada 1s ease-in-out 1s infinite; 
             }
+
+            #loginBotao button{
+                position:fixed;
+                justify-content: center;
+                background-color: rgb(117, 28, 40);
+            }

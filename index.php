@@ -14,6 +14,8 @@
         <div id="imagemTopo">
             <img src="imagens/TGCFimg2.jpg" alt="">
         </div>
+
+        <a href="login2.php">Login</a>
         
         <div id="Sobre">
                     <h3>Sobre a obra</h3>
