@@ -1,3 +1,7 @@
+<?php if (!empty($mensagem)): ?>
+    <p style="color:red;"><?= $mensagem ?></p>
+<?php endif; ?>
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -14,7 +18,7 @@
     <?php include "pages/header.php"?>
 
     <div id=login2>
-        <h1>Login</h1>
+        <h1>Adicionar conta</h1>
 
         <form action="receber.php" method="POST">
             <input name="nome" type="text" placeholder="Nome de usuário"><br><br>
@@ -22,7 +26,6 @@
             <button type="submit">Enviar</button>
         </form>
     </div>
-
 </body>
 
 <script>

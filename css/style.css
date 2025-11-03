@@ -124,4 +124,16 @@ body{
                 padding: 10px;
                 border-radius: 15px;
             }
+
+			#loginBotao button{
+                position:fixed;
+                justify-content: center;
+                background-color: rgb(117, 28, 40);
+            }
+
+            table{
+				justify-content: center;
+                background-color: rgb(117, 28, 40);
+            }
+
             

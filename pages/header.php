@@ -9,7 +9,7 @@
             <img src="imagens/huaChibi.jpg" alt="" width="65px" height="65px">
         </div>
 
-        <button><a href="login2.php" id="loginBotao">Login</a></button>
+        
 
         <div id="apresentacao">
             <h1>TGCF WORLD</h1> 

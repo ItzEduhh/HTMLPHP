@@ -94,3 +94,9 @@ body{
                 background-color: white;    
                 border-radius: 10px; 
             }
+
+			#loginBotao button{
+                position:fixed;
+                justify-content: center;
+                background-color: rgb(117, 28, 40);
+            }

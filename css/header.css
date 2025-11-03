@@ -50,8 +50,12 @@
                 animation: janelaAnimada 1s ease-in-out 1s infinite; 
             }
 
-            #loginBotao button{
-                position:fixed;
+			
+
+			#loginBotao {
+                left:50%;
+                right:50%;
+                position:absolute;
                 justify-content: center;
                 background-color: rgb(117, 28, 40);
             }

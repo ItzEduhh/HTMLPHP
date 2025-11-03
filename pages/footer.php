@@ -3,7 +3,7 @@
     <link rel="stylesheet" href="css/footer.css">
 
     <div id="voltarInicio">
-        <button><a href="index.php">Voltar ao inicio</a></button>
+        <button><a href="index2.php">Voltar ao inicio</a></button>
     </div>
 
     <div id="final">
